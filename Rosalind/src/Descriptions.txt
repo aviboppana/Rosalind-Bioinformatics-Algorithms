@@ -1,0 +1,22 @@
+CONS.java: Consensus and Profile
+  Given: A collection of at most 10 DNA strings of equal length (at most 1 kbp) in FASTA format.
+  Returns: A consensus string and profile matrix for the collection. (If several possible consensus strings exist, then you may return any one of them.)
+  
+FIBD.java: Mortal Fibonacci Rabbits
+  Given: Positive integers n ≤ 100 and m ≤ 20.
+  Returns: The total number of pairs of rabbits that will remain after the n-th month if all rabbits live for m months.
+  Notes: Solved recursively 
+
+GRPH.java: Overlap Graphs
+  Given: A collection of DNA strings in FASTA format having total length at most 10 kbp. 
+  Returns: The adjacency list corresponding to O3. You may return edges in any order.
+  Notes: O3 corresponds with the overlap of prefix and suffixes for particular pairs of strings being 3 characters in length.
+
+IPRB.java: Mendel's First Law
+  Given: Three positive integers k, m, and n, representing a population containing k+m+n organisms: k individuals are homozygous dominant for a factor, m are heterozygous, and n are homozygous recessive.
+  Returns: The probability that two randomly selected mating organisms will produce an individual possessing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.
+  
+SUBS.java: Finding a Motif in DNA
+  Given: Two DNA strings s and t (each of length at most 1 kbp).
+  Return: All locations of t as a substring of s.
+  Note: Utilized a Boyer's Moore substring implementation
